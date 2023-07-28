@@ -29,10 +29,10 @@ export default function Speaking() {
   return (
     <>
       <Head>
-        <title>Speaking - Spencer Sharp</title>
+        <title>Speaking - Lyle Coguill</title>
         <meta
           name="description"
-          content="I’ve spoken at events all around the world and been interviewed for many podcasts."
+          content="I truly enjoy the art of conversation and would love to speak with you about your project and my skill set to help you achieve your goals"
         />
       </Head>
       <SimpleLayout

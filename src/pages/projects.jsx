@@ -62,15 +62,12 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Projects - Spencer Sharp</title>
-        <meta
-          name="description"
-          content="Things I’ve made trying to put my dent in the universe."
-        />
+        <title>Projects - Lyle Coguill</title>
+        <meta name="description" content="Things I’m currently working on" />
       </Head>
       <SimpleLayout
-        title="Things I’ve made trying to put my dent in the universe."
-        intro="I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved."
+        title="What I'm working on!"
+        intro="Most recently I worked on the web3 project, Star Atlas. Primarily on the front end web design I assisted in developing the marketplace that attracts over 8000 users per month."
       >
         <ul
           role="list"
