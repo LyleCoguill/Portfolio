@@ -68,7 +68,7 @@ export default function About() {
                 I am a proud husband and father of two. For over two years, I
                 have been fully immersed in the world of software development
                 and crypto, finding a perfect balance between the captivating
-                front-end artwork and the logical complexities of the back-end..
+                front-end artwork and the logical complexities of the back-end.
               </p>
               <p>
                 From the moment I dove into software development and crypto I
