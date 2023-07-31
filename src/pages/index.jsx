@@ -278,30 +278,35 @@ export default function Home({ articles }) {
             Software developer and web3 entrepreneur based in Colorado Springs
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Lyle, Software Developer and entrepreneur based in Colorado, I
-            specialize in full stack development utilizing various Javascript
-            Frameworks, CSS Frameworks, HTML, Node.js and Cypress
+            I’m Lyle, I specialize in full stack development utilizing various
+            Javascript Frameworks, CSS Frameworks, HTML, Node.js and Cypress. I
+            particularly enjoy front-end development and want to help you bring
+            your ideas to life.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
               href="https://twitter.com/MarzHill"
               aria-label="Follow on Twitter"
               icon={TwitterIcon}
+              target="_blank"
             />
             <SocialLink
               href="https://www.instagram.com/coguill.official/"
               aria-label="Follow on Instagram"
               icon={InstagramIcon}
+              target="_blank"
             />
             <SocialLink
               href="https://github.com/LyleCoguill"
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
+              target="_blank"
             />
             <SocialLink
               href="https://www.linkedin.com/in/lyle-coguill/"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
+              target="_blank"
             />
           </div>
         </div>
