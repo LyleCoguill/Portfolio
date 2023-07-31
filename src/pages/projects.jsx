@@ -1,49 +1,32 @@
 import Head from 'next/head'
 import Image from 'next/image'
-
 import { Card } from '@/components/Card'
+import saLogo from '@/images/logos/saLogo.jpeg'
+import hpiLogo from '@/images/logos/hpiLogo.png'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import logoAnimaginary from '@/images/logos/animaginary.svg'
-import logoCosmos from '@/images/logos/cosmos.svg'
-import logoHelioStream from '@/images/logos/helio-stream.svg'
-import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
 
 const projects = [
   {
-    name: 'Planetaria',
+    name: 'Star Atlas',
     description:
-      'Creating technology to empower civilians to explore space on their own terms.',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
-    logo: logoPlanetaria,
+      'Star Atlas built by ATMTA Inc is creating an onchain mmorpg and marketplace that currently servers over 8000 users per month. This legendary build is going to shape the video game industry and create a space for play to earn to be the next way of gaming.',
+    link: {
+      href: 'https://www.staratlas.com/',
+      label: 'staratlas.com',
+      target: '_blank',
+    },
+    logo: saLogo,
   },
   {
-    name: 'Animaginary',
+    name: 'Highland Point Inc',
     description:
-      'High performance web animation library, hand-written in optimized WASM.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoAnimaginary,
-  },
-  {
-    name: 'HelioStream',
-    description:
-      'Real-time video streaming library, optimized for interstellar transmission.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoHelioStream,
-  },
-  {
-    name: 'cosmOS',
-    description:
-      'The operating system that powers our Planetaria space shuttles.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoCosmos,
-  },
-  {
-    name: 'OpenShuttle',
-    description:
-      'The schematics for the first rocket I designed that successfully made it to orbit.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoOpenShuttle,
+      'This is the original website as I am using this information to update and build a new website for the company. HPI is an engineering consulting, mechanical testing, and physical testing company dealing with classified uncontrolled data.',
+    link: {
+      href: 'https://highlandpoint.biz/',
+      label: 'highlandpoint.biz',
+      target: '_blank',
+    },
+    logo: hpiLogo,
   },
 ]
 
