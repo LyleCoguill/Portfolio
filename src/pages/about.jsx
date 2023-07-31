@@ -65,9 +65,9 @@ export default function About() {
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                I'm a proud husband and father of two. For over two years, I've
-                been fully immersed in the world of software development and
-                crypto, finding a perfect balance between the captivating
+                I am a proud husband and father of two. For over two years, I
+                have been fully immersed in the world of software development
+                and crypto, finding a perfect balance between the captivating
                 front-end artwork and the logical complexities of the back-end..
               </p>
               <p>
@@ -77,15 +77,15 @@ export default function About() {
                 myself endlessly immersed in the dynamic world of technology.
               </p>
               <p>
-                Beyond coding, I'm deeply passionate about the potential of
-                decentralization in the crypto industry. It's inspiring to see
+                Beyond coding, I am deeply passionate about the potential of
+                decentralization in the crypto industry. It is inspiring to see
                 how it brings power to the people.
               </p>
               <p>
-                For me, technology isn't just a career; it's a mission. I aim to
-                leave a positive impact, whether through innovative solutions,
-                advocating for decentralization, or inspiring the next
-                generation of tech enthusiasts.
+                For me, technology is not just a career; it is a mission. I aim
+                to leave a positive impact, whether through innovative
+                solutions, advocating for decentralization, or inspiring the
+                next generation of tech enthusiasts.
               </p>
             </div>
           </div>
