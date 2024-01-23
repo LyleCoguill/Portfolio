@@ -12,6 +12,8 @@ import {
   LinkedInIcon,
   TwitterIcon,
 } from '@/components/SocialIcons'
+import cdLogo from '@/images/logos/cdLogo.png'
+import cvLogo from '@/images/logos/cvLogo.png'
 import cspdLogo from '@/images/logos/cspdLogo.jpeg'
 import saLogo from '@/images/logos/saLogo.jpeg'
 import hpiLogo from '@/images/logos/hpiLogo.png'
@@ -157,12 +159,32 @@ function downloadResume() {
 function Resume() {
   let resume = [
     {
+      company: 'Coguill Development',
+      title: 'Founder',
+      logo: cdLogo,
+      start: 'Aug 2023',
+      end: {
+        label: 'Present',
+        dateTime: new Date().getFullYear(),
+      },
+    },
+    {
+      company: 'Coguill Ventures',
+      title: 'Founder',
+      logo: cvLogo,
+      start: 'Aug 2023',
+      end: {
+        label: 'Present',
+        dateTime: new Date().getFullYear(),
+      },
+    },
+    {
       company: 'Star Atlas | ATMTA Inc',
       title: 'Software Engineer',
       logo: saLogo,
-      start: '2023',
+      start: 'Jan 2023',
       end: {
-        label: 'Present',
+        label: 'July 2023',
         dateTime: new Date().getFullYear(),
       },
     },
@@ -170,16 +192,16 @@ function Resume() {
       company: 'Highland Point Inc',
       title: 'Sole Software Engineer',
       logo: hpiLogo,
-      start: '2022',
-      end: 'Present',
+      start: 'Sept 2022',
+      end: 'Nov 2023',
       dateTime: new Date().getFullYear(),
     },
     {
       company: 'Colorado Springs Police Department',
       title: 'Police Officer CSPD SWAT',
       logo: cspdLogo,
-      start: '2012',
-      end: '2022',
+      start: 'Oct 2012',
+      end: 'Dec 2022',
     },
   ]
 

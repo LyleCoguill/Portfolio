@@ -50,7 +50,8 @@ export default function Projects() {
       </Head>
       <SimpleLayout
         title="What I'm working on!"
-        intro="Most recently I worked on the web3 project, Star Atlas. Primarily on the front end web design I assisted in developing the marketplace that attracts over 8000 users per month."
+        intro="August of 2023 I began Coguill Development where I have been able to work on multiple kinds of projects. Utilizing my experience from Star Atlas, I have built a development contract business. From creating your personal blog to custom designing and training an LLM to read medical data and create a report, I have been able to work on a wide variety of projects."
+        subintro="Below are some of the projects I have worked on and links to their websites. Once projects are completed, I will be able to share more information about them and upload them here."
       >
         <ul
           role="list"
